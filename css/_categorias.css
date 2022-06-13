@@ -1,0 +1,46 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.category {
+  width: 5.5rem;
+  list-style: none;
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.category a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.category__photo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 3px solid grey;
+  padding: 0.2rem;
+}
+
+.category__title {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.category__title-text {
+  margin-top: 0.2rem;
+}
+/*# sourceMappingURL=_categorias.css.map */
